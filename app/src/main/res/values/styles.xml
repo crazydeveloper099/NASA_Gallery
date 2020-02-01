@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorPrimaryDark">#e5c702</item>
+        <item name="colorAccent">@color/primaryDark</item>
+        <item name="android:fontFamily">@font/sans_regular</item>.
+    </style>
+</resources>

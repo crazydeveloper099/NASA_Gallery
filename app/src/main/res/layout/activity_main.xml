@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primaryDark"
+    android:padding="10dp"
+
+    tools:context=".Activites.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose an Image"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/image_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
+</LinearLayout>
